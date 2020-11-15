@@ -49,6 +49,3 @@
 
 ![Screenshot](screenshots/7%20-%20Watch.jpg)
 
-### Upload Thumbnail Modal
-
-![Screenshot](screenshots/16%20-%20Upload%20Thumbnail%20Modal.jpg)
