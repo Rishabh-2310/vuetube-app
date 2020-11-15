@@ -34,53 +34,11 @@
   - Change password
   - Upload channel avatar
 
-## Frontend Repo
-
-Frontend was developed with vue js and vuetify [VueTube](https://github.com/techreagan/vue-nodejs-youtube-clone)
-
-## API Documentation
-
-Hosted on netlify: [Coming Soon]()
-
-Extensive and testing documentation with postman: [VueTube API](https://documenter.getpostman.com/view/9407876/SzYaVdtC?version=latest)
-
-## Database Model
-
-Though the diagram uses sql data type, this diagram is to show you the various collections in the mongo database.
-
-![Screenshot](screenshots/vue_tube_ERD.jpg)
 
 ## Requirement
 
 - NodeJS
 - MongoDB
-
-## Configuration File
-
-Rename the config/.env.example to .env, then modify to your environment variables, mongodb uri, set your JWT_SECRET and SMTP variables
-
-```ENV
-NODE_ENV=development
-PORT=3001
-
-MONGO_URI=YOUR_URL
-
-JWT_SECRET=YOUR_SECRET
-JWT_EXPIRE=30d
-JWT_COOKIE_EXPIRE=30
-
-FILE_UPLOAD_PATH = ./public/uploads
-MAX_FILE_UPLOAD = 1000000
-
-SMTP_HOST=smtp.mailtrap.io
-SMTP_PORT=2525
-SMTP_EMAIL=
-SMTP_PASSWORD=
-FROM_EMAIL=noreply@quizapp.com
-FROM_NAME=QuizzApp
-```
-
-Email testing: use mailtrap for email testing, it's easy no stress.
 
 ## Installation
 
@@ -141,12 +99,3 @@ node run dev
 
 ![Screenshot](screenshots/16%20-%20Upload%20Thumbnail%20Modal.jpg)
 
-For more screenshots check out the vue frontend repo [VueTube](https://github.com/techreagan/vue-nodejs-youtube-clone)
-
-## License
-
-This project is licensed under the MIT License
-
-## Developed by Reagan Ekhameye (Tech Reagan)
-
-Reach me on twitter [@techreagan](https://www.twitter.com/techreagan)
