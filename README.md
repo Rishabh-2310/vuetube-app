@@ -33,8 +33,6 @@
 
 ## Screenshots
 
-> Delete the screenshot folder if you download this code (Screenshots folder is 3.14mb in size).
-
 ### Sign In
 
 ![Screenshot](screenshots/20%20-%20Sign%20in.jpg)
